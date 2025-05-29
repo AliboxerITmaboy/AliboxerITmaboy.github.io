@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: "Laila", serif;
+    font-weight: 400;
+    font-size: 16px;
+    background: url(img/sight.jpg);
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 20px 48px;
+    margin: 20px;
+    background: #ED5C93;
+    height: 45px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    float: right;
+    width: 50%;
+}
+
+header nav a{
+     color: #fff;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li:not(.active):not(.btn) a:hover{
+    border-bottom: 5px solid #fff;
+}
+header nav ul li.btn a{
+    background-color:#911927;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+header nav ul li.btn a:hover{
+    background-color: #5E0913;
+}
+header nav ul li.active::after{
+    content: "";
+    display: block;
+    widows:40px;
+    height: 5px;
+    background-color:#fff;
+}
+.container{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.container img{
+    border-radius: 80px;
+    position: relative;
+}
+.container p{
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    bottom: 200px;
+    left: 100px;
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    color:#fff;
+    padding-bottom: 20px;
+    padding-right: 500px;
+    padding-top: 10px;
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+}
+
+.hero--info{
+    background-color: rgba(255, 255, 255, .6);
+    width: 1425px;
+    height: 600px;
+    padding-top: 70px;
+}
+.info h1{
+    margin: 0px 30px;
+    background-color: #DE5767;
+    border-radius: 50px;
+    width: 450px;
+    font-weight: 700;
+    font-size: 64px;
+    opacity: 100%;
+    color: #FFF; 
+}
+.hero--info img{
+    top: 1020px;
+    position:absolute;
+    right: 0;
+    width: 60%;
+    padding: 10px 40px;
+    border-radius: 100px;
+    opacity: 100%;
+}
+.SECTIONS{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50PX;
+}
+.SECTIONS .BLOCK{
+    width: 400PX;
+    border-radius: 70px;
+    margin: 100PX;
+    padding: 50px 50px;
+    color: #000;
+    background: rgba(255, 255, 255, .4);
+}
+.SECTIONS .BLOCK img{
+    width: 300PX;
+    padding: 40PX 50PX;
+    border-radius: 70PX;
+}
+.SECTIONS .BLOCK P{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+/*Launcher*/
+
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: "Laila", serif;
+    font-weight: 400;
+    font-size: 16px;
+    background: url(img/sight.jpg);
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 20px 48px;
+    margin: 20px;
+    background: #ED5C93;
+    height: 45px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    float: right;
+    width: 50%;
+}
+
+header nav a{
+     color: #fff;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li:not(.active):not(.btn) a:hover{
+    border-bottom: 5px solid #fff;
+}
+header nav ul li.btn a{
+    background-color:#911927;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+header nav ul li.btn a:hover{
+    background-color: #5E0913;
+}
+header nav ul li.active::after{
+    content: "";
+    display: block;
+    widows:40px;
+    height: 5px;
+    background-color:#fff;
+}
+
+.sight{
+    background-repeat: no-repeat;
+    background: url(img/launcher1.jpg);
+    width: 100%;
+    height: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 200px;
+    border-radius: 50px;
+}
+.sight h2{
+    font-size: 20px;
+    font-weight: 700;
+    color:#FFFF00;
+    padding: 0px 5px;
+}
+.sight h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.sight p{
+    font-weight: 500;
+    line-height: 170%;
+    margin: 30px 0px;
+    color: #fff;
+}
+.sight .btn{
+    background-color: #FFFF00;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: 0;
+      font-size: 17px;
+}
+.sight .btn:hover{
+    cursor:pointer;
+   transform: scale(1.1);
+}
+
+/*FOOTER*/
+footer{
+    background: rgba(0, 0, 0, .8);
+    padding: 50px 50px;
+    color: #fff;
+    height: 300PX;
+}
+footer .blocks{
+    display: flex;
+    justify-content:space-between;
+}
+footer .blocks p{
+    width: 300px;
+    margin: 15px 0;
+}
+footer .blocks h4{
+    font-weight: 500;
+    font-size: 17px;
+}
+footer .blocks ul{
+    list-style: none;
+}
+footer .blocks ul li{
+    margin-top:7px;
+    opacity: 0.8;
+}
+footer hr{
+    margin: 30px 0;
+    border: 0;
+    height: 0.6px;
+    background: #DCDCDC;
+}
+footer > p{
+    text-align:center;
+}
