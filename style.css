@@ -4,7 +4,7 @@ body{
     font-family: "Laila", serif;
     font-weight: 400;
     font-size: 16px;
-    background: url(img/sight.jpg);
+    background: url(sight.jpg);
 }
 a{
     text-decoration: none;
@@ -136,7 +136,7 @@ body{
     font-family: "Laila", serif;
     font-weight: 400;
     font-size: 16px;
-    background: url(img/sight.jpg);
+    background: url(sight.jpg);
 }
 a{
     text-decoration: none;
@@ -184,7 +184,7 @@ header nav ul li.active::after{
 
 .sight{
     background-repeat: no-repeat;
-    background: url(img/launcher1.jpg);
+    background: url(launcher1.jpg);
     width: 100%;
     height: 400px;
     padding-top: 70px;
