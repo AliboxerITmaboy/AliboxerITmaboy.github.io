@@ -5,7 +5,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     margin: 0;
-    background: url(img/sight.jpg);
+    background: url(sight.jpg);
 }
 a{
     text-decoration: none;
@@ -133,7 +133,7 @@ h2{
 
 .sight{
     background-repeat: no-repeat;
-    background: url(img/launcher1.jpg);
+    background: url(launcher1.jpg);
     width: 98%;
     height: 400px;
     padding-top: 70px;
