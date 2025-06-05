@@ -4,7 +4,8 @@ body{
     font-family: "Laila", serif;
     font-weight: 400;
     font-size: 16px;
-    background: url(sight.jpg);
+    margin: 0;
+    background: url(img/sight.jpg);
 }
 a{
     text-decoration: none;
@@ -51,7 +52,7 @@ header nav ul li.active::after{
 }
 .container{
     margin-top: 60px;
-    margin-left: 30px;
+    margin-left: 55px;
 }
 .container img{
     border-radius: 80px;
@@ -69,9 +70,9 @@ header nav ul li.active::after{
     font-size: 30px;
     font-weight: 800;
     color:#fff;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     padding-right: 500px;
-    padding-top: 10px;
+    padding-top: -12px;
 }
 h2{
     font-size: 32px;
@@ -81,7 +82,7 @@ h2{
 
 .hero--info{
     background-color: rgba(255, 255, 255, .6);
-    width: 1425px;
+    width: 1500px;
     height: 600px;
     padding-top: 70px;
 }
@@ -130,67 +131,16 @@ h2{
 
 /*Launcher*/
 
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
-
-body{
-    font-family: "Laila", serif;
-    font-weight: 400;
-    font-size: 16px;
-    background: url(sight.jpg);
-}
-a{
-    text-decoration: none;
-}
-header{
-    padding: 20px 48px;
-    margin: 20px;
-    background: #ED5C93;
-    height: 45px;
-    border-radius: 100px;
-    display: flex;
-    justify-content: space-between;
-}
-header nav{
-    float: right;
-    width: 50%;
-}
-
-header nav a{
-     color: #fff;
-}
-header nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
-header nav ul li:not(.active):not(.btn) a:hover{
-    border-bottom: 5px solid #fff;
-}
-header nav ul li.btn a{
-    background-color:#911927;
-    padding: 10px 18px;
-    border-radius: 5px;
-}
-header nav ul li.btn a:hover{
-    background-color: #5E0913;
-}
-header nav ul li.active::after{
-    content: "";
-    display: block;
-    widows:40px;
-    height: 5px;
-    background-color:#fff;
-}
-
 .sight{
     background-repeat: no-repeat;
-    background: url(launcher1.jpg);
-    width: 100%;
+    background: url(img/launcher1.jpg);
+    width: 98%;
     height: 400px;
     padding-top: 70px;
     padding-bottom: 70px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     border-radius: 50px;
+    padding-left: 30px ;
 }
 .sight h2{
     font-size: 20px;
@@ -221,7 +171,155 @@ header nav ul li.active::after{
     cursor:pointer;
    transform: scale(1.1);
 }
+.big-text{
+    margin-top: -30px;
+    font-size: 36px ;
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(90deg,rgba(232, 179, 19, 1) 19%, rgba(4, 54, 140, 1) 63%, rgba(191, 10, 134, 1) 89%);
+    color: #FFF;
+    background-clip: text;
+    -webkit-text-stroke: 6px transparent;
+}
 
+.pages{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    background: linear-gradient(90deg,rgba(197, 79, 105, 1) 19%, rgba(53, 10, 194, 1) 100%);
+}
+.pages img{
+    width: 600px;
+}
+.pages h2{
+    font-size: 30px;
+    color: #FFF;
+    background: #8B008B;
+    background-clip: text;
+    -webkit-text-stroke: 2px transparent;
+}
+.pages .page1 h2{
+    padding-left: 30px;
+}
+.pages .page2 h2{
+   padding-left: 490px; 
+}
+.pages .page3 h2{
+    padding-left: 30px;
+}
+.pages .page4 h2{
+    padding-left: 530px;
+}
+.pages .page5 h2{
+    padding-left: 30px;
+}
+.pages .page1 img {
+    float:left;
+    padding-left: 30px;
+     border-radius: 50px;
+}
+.pages .page2 img {
+    float: right;
+    padding-right: 30px;
+     border-radius: 50px;
+}
+.pages .page3 img{
+    float: left;
+    padding-left: 30px;
+     border-radius: 50px;
+}
+.pages .page4 img{
+    float: right;
+    padding-right: 30px;
+     border-radius: 50px;
+}
+.pages .page5 img{
+    float: left;
+    padding-left: 30px;
+    border-radius: 50px;
+}
+
+/*CONTACTS*/
+
+.hero-contacts h1{
+    color: #FFF;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 33px;
+}
+.hero-contacts p{
+    color:#FFF;
+    text-align: center;
+}
+.hero-contacts img{
+    width: 70%;
+    margin: 80px 15%;
+}
+
+.feedback{
+    padding: 70px 0;
+    background-color: #C54F69;
+}
+.feedback h2{
+    color: #FFF;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+.feedback p{
+    color:#FFF;
+    text-align: center;
+    margin-top: 10px;
+}
+.feedback form{
+    margin: 80px auto;
+    width: 600px;
+}
+.feedback form .inline{
+    display: flex;
+    justify-content: space-between;
+}
+.feedback form .inline > div{
+    width: 50%;
+}
+.feedback form label{
+    color: #4f4f4f;
+    font-size: 14px;
+}
+.feedback form input,
+.feedback form textarea{
+    background: #AB4556;
+    border-radius: 10px;
+    border: 0.6px solid #cecece;
+    display: block;
+    width: 90%;
+    padding: 15px 10px;
+    outline: none;
+    color: #FFF;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+.feedback form .one-line{
+    width: 96%;
+}
+.feedback form textarea{
+    resize: none;
+    height: 200px;
+}
+.feedback form button{
+    background: #dc7000;
+    border-radius: 5px;
+    border: 0;
+    float: right;
+    cursor: pointer;
+    color: #FFF;
+    padding: 15px 35px;
+    transition: all 500ms ease;
+}
+.feedback form button:hover{
+    background-color: #b01414;
+}
 /*FOOTER*/
 footer{
     background: rgba(0, 0, 0, .8);
